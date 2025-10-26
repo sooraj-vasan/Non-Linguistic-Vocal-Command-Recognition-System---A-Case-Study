@@ -3,7 +3,7 @@
 
 ## 📘 Introduction
 
-**Non-Linguistic Vocal Command Recognition (NLVCR)** presents a novel paradigm for human-computer interaction by using *non-speech vocalizations* — such as **shush**, **click**, **whistle**, **pop**, **hiss**, and **hum** — as control signals for devices.
+**Non-Linguistic Vocal Command Recognition (NLVCR)** offers a new approach for human-computer interaction by using non-speech sounds, such as **shush**, **click**, **whistle**, **pop**, **hiss**, and **hum**, as control signals for devices. 
 
 These cues are:
 - **Language-independent**
@@ -11,7 +11,7 @@ These cues are:
 - **Less affected by background noise**
 - **Ideal for hands-free interaction**
 
-This project applies **signal processing** and **machine learning** techniques to recognize and classify such sounds for intuitive control in smart environments.
+This project applies **signal processing** and **machine learning** techniques to recognize and classify these sounds for easy control in smart environments.
 
 
 ## 🧠 System Architecture
