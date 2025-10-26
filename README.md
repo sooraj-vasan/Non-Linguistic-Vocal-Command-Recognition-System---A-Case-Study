@@ -61,6 +61,8 @@ Interactive data collection ensures consistent amplitude normalization and syste
 - **Dataset Split:** 75% Training, 25% Validation (Stratified)
 - **Performance Metrics:** Training and Test Accuracy, Confusion Matrix
 
+The Test and Training Accuracy for various samples are shown in the table below - 
+
 | Dataset Size | Training Accuracy | Test Accuracy |
 |---------------|------------------|----------------|
 | 30 Samples | 88% | 39% |
