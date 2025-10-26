@@ -109,11 +109,14 @@ Follow this sequence to run the project properly:
 # 1. Collect data
 python data_collection_fixed.py
 
-# 2. Extract features
+# 2. Check the data
+python data_cleanup.py
+
+# 3. Extract features
 python feature_extraction.py
 
-# 3. Train model  
+# 4. Train model  
 python model_training.py
 
-# 4. Run the music player with built-in voice control
+# 5. Run the music player with built-in voice control
 python music_player.py
