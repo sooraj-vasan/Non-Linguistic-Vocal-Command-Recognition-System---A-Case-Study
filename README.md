@@ -22,6 +22,7 @@ The system consists of the following major components:
 2. **Feature Extraction (MFCC)**
 3. **Model Training and Evaluation**
 4. **Real-Time Command Recognition**
+5. **Integration with Music Player**
 
 
 ## 🎙️ Data Collection
