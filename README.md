@@ -1,7 +1,7 @@
-# 🗣️ Non-Linguistic Vocal Command Recognition System
+# 🗣️Non-Linguistic Vocal Command Recognition System
 
 
-## 📘 Introduction
+## 📘Introduction
 
 **Non-Linguistic Vocal Command Recognition (NLVCR)** offers a new approach for human-computer interaction by using non-speech sounds, such as **shush**, **click**, **whistle**, **pop**, **hiss**, and **hum**, as control signals for devices. This system is also integrated with a Music Player for real-world application.
 
@@ -14,7 +14,7 @@ These cues are:
 This project applies **signal processing** and **machine learning** techniques to recognize and classify these sounds for easy control in smart environments.
 
 
-## 🧠 System Architecture
+## 🧠System Architecture
 
 The system consists of the following major components:
 
@@ -25,7 +25,7 @@ The system consists of the following major components:
 5. **Integration with Music Player**
 
 
-## 🎙️ Data Collection
+## 🎙️Data Collection
 
 - **Commands:** `shush`, `click`, `whistle`, `pop`, `hiss`, `hum`
 - **Recording Library:** `sounddevice`
@@ -41,7 +41,7 @@ Example filenames: `shush_1.wav`, `click_test_2.wav`
 Interactive data collection ensures consistent amplitude normalization and systematic file naming.
 
 
-## 🔍 Feature Extraction
+## 🔍Feature Extraction
 
 - **Method:** Mel-Frequency Cepstral Coefficients (**MFCCs**)
 - **Number of Coefficients:** 13
@@ -54,7 +54,7 @@ Interactive data collection ensures consistent amplitude normalization and syste
 - Helps in observing the separability of different vocal commands.
 
 
-## 🤖 Model Training
+## 🤖Model Training
 
 - **Model:** Support Vector Machine (**SVM**) with Linear Kernel
 - **Frameworks:** `scikit-learn`, `joblib`
@@ -72,7 +72,7 @@ The Test and Training Accuracy for various samples are shown in the table below 
 Model saved as: `vocal_command_model.pkl`
 
 
-## 🧩 Command Recognition
+## 🧩Command Recognition
 
 - **Input:** Real-time audio (2-second recording)
 - **Processing:** MFCC extraction (13 features)
@@ -96,12 +96,12 @@ Model saved as: `vocal_command_model.pkl`
 - **Continuous Listening Mode:** Listens continuously until manually stopped.
 
 
-## 📊 Results & Visualization
+## 📊Results & Visualization
 
 - MFCC Feature plots show clear class clusters.
 - Confusion matrices visualize classification performance and misclassifications.
 
-## ⚙️ Execution Order
+## ⚙️Execution Order
 
 Follow this sequence to run the project properly:
 
@@ -118,5 +118,5 @@ python feature_extraction.py
 # 4. Train model  
 python model_training.py
 
-# 5. Run the music player with built-in voice control
+# 5. Run the music player
 python music_player.py
