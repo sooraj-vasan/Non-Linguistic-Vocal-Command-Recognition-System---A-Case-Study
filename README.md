@@ -1,4 +1,4 @@
-# 🗣️Non-Linguistic Vocal Command Recognition System
+# 🗣️Non-Linguistic Vocal Command Recognizing Music Player
 
 
 ## 📘Introduction
